@@ -1,91 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MoonCake-Pasteleria</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./assets/img/favicom.png" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <title>¡Nos Casamos! Ale & Javi | Nuestra Boda</title>
+
+  <!-- GOOGLE FONT -->
+ <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header>
-        <div class="inicio">
-            <a href=""><img src="./assets/img/logo.png" alt=""></a>
-        </div>
-        <nav>
-            <ul class="navBar">
-                <li><a href="./index.html">Inicio</a></li>
 
-                <li><a href="./pages/QuienesSomos.html">¿Quienes Somos?</a></li>
-                
-                <li><a href="./pages/Tienda.html">Tienda</a></li>
-                
-                <li><a href="./pages/NuestrosServicios.html">NuestrosServicios</a></li>
-                
-                <li><a href="./pages/Contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+<!-- HERO -->
+<header class="hero">
+  <div class="overlay">
+    <h1>¡Nos Casamos!</h1>
+    <p>20 de febrero de 2026 · 21:30 hs</p>
+  </div>
+</header>
 
-    </header>
-    
-    <main>
-    
-        <section class="h1">
-            <h1>MoonCake Pasteleria Artesanal</h1>
-        </section>
+<!-- CONTADOR -->
+<section class="contador">
+  <h2>Te esperamos en nuestra boda</h2>
 
-        <div>
-        <section class="tienda">
-            <h2>Los mas Pedidos</h2>
-            <section class="container">
-                <div class="box-1">                   
-                    <div>
-                        <img src="./assets/img/torta1.png" alt="">
-                        <a href="">COMPRAR</a>
-                        <img src="./assets/img/carrito-de-compras.png" alt="">
-                    </div>
-                </div>
-                <div class="box-2">                    
-                    <div>
-                        <img src="./assets/img/torta2.png" alt="">
-                        <a href="">COMPRAR</a>
-                        <img src="./assets/img/carrito-de-compras.png" alt="">
-                    </div>
-                </div>
-                <div class="box-3">                    
-                    <div>
-                        <img src="./assets/img/torta3.png" alt="">
-                        <a href="">COMPRAR</a>
-                        <img src="./assets/img/carrito-de-compras.png" alt="">
-                    </div>
-                </div>
-                <div class="box-4">                    
-                    <div>
-                        <img src="./assets/img/torta4.png" alt="">
-                        <a href="">COMPRAR</a>
-                        <img src="./assets/img/carrito-de-compras.png" alt="">
-                    </div>
-                </div>
-            </section>
-            
-        </section>
-        </section>
-        </div>
-    </main>
+  <div class="time-boxes">
+    <div>
+      <span id="days">00</span>
+      <small>Días</small>
+    </div>
+    <div>
+      <span id="hours">00</span>
+      <small>Horas</small>
+    </div>
+    <div>
+      <span id="minutes">00</span>
+      <small>Min</small>
+    </div>
+    <div>
+      <span id="seconds">00</span>
+      <small>Seg</small>
+    </div>
+  </div>
+</section>
 
-    <footer>
-        <div class="footer">
-            <div><h3>Seguinos en Nuestras Redes!!</h3></div>
-            <a href="https://m.facebook.com/profile.php?id=1199044092"><img src="./assets/img/facebook.png" alt="Facebook"></a>
-            <a href="https://www.instagram.com/mooncake.dulces/"><img src="./assets/img/instagram.png" alt="instagram"></a>   
-        </div>
+<!-- CEREMONIA Y RECEPCIÓN -->
+<section class="direccion">
+  <h2>Ceremonia & Recepción</h2>
 
-    </footer>
+  <div class="lugares-container">
+
+    <!-- CEREMONIA -->
+    <div class="lugar">
+      <h3>Capilla San Juan Bosco</h3>
+      <p>
+        Dr. Degano & Sgto Cabral <br>
+        Santiago del Estero
+      </p>
+
+      <img src="./assets/img/iglesia.png" alt="Capilla San Juan Bosco">
+
+      <iframe
+        class="mapa"
+        src="https://www.google.com/maps?q=Capilla+San+Juan+Bosco+Santiago+del+Estero&output=embed"
+        loading="lazy">
+      </iframe>
+    </div>
+
+    <!-- RECEPCIÓN -->
+    <div class="lugar">
+      <h3>Le Bistro</h3>
+      <p>
+        Las Magnolias 3029 <br>
+        Santiago del Estero
+      </p>
+
+      <img src="./assets/img/salon.png" alt="Restaurante Zambra-Le Bistro">
+
+      <iframe
+        class="mapa"
+        src="https://www.google.com/maps?q=Restaurante+Zambra+Le+Bistro+Santiago+del+Estero&output=embed"
+        loading="lazy">
+      </iframe>
+    </div>
+
+  </div>
+</section>
+
+<!-- ITINERARIO -->
+<section class="itinerario">
+  <h2>Itinerario</h2>
+
+  <div class="timeline">
+    <div class="evento">
+  <span class="hora">21:30 hs</span>
+  <span class="punto"></span>
+
+  <div class="detalle">
+    <img src="./assets/img/icons/iglesiagif.png" alt="Ceremonia">
+    <p>Ceremonia</p>
+  </div>
+</div>
+
+<div class="evento">
+  <span class="hora">22:00 hs</span>
+  <span class="punto"></span>
+
+  <div class="detalle">
+    <img src="./assets/img/icons/lista.png" alt="Civil">
+    <p>Civil</p>
+  </div>
+</div>
+
+<div class="evento">
+  <span class="hora">22:30 hs</span>
+  <span class="punto"></span>
+
+  <div class="detalle">
+    <img src="./assets/img/icons/cena-romantica.png" alt="Cena">
+    <p>Cena</p>
+  </div>
+</div>
+
+</section>
+
+
+<!-- DRESS CODE -->
+<section class="dresscode">
+  <h2>Código de vestimenta</h2>
+
+  <img
+    src="./assets/img/icons/codigo-de-vestimenta.png"
+    alt="Look Cocktail"
+    class="dress-icon"
+  >
+
+  <p class="tipo">Cocktail</p>
+</section>
+
+
+<!-- CONFIRMACIÓN -->
+<section class="confirmacion">
+  <h2>Confirmar asistencia</h2>
+  <p>
+    Por favor confirmar hasta el
+    <strong>02 de febrero de 2026</strong>
+  </p>
+
+  <a href="PEGAR_ACA_EL_LINK_DE_GOOGLE_FORMS" target="_blank">
+    Confirmar presencia
+  </a>
+</section>
+
+<footer>
+  Ale & Javi · 20.02.2026
+</footer>
+
+<!-- JS -->
+<script src="./js/script.js"></script>
 
 </body>
-
 </html>
+
